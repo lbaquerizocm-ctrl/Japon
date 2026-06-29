@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Japon y su belleza</title>
+    <style>
+      body{font-family:Arial;background:#ffffff;margin:20px;}
+      header{background:#ff0000;color:rgb(255, 255, 255);padding:25px;text-align:center;}
+      section{background:rgb(255, 255, 255);padding:18px;margin-top:15px;border-radius:12px;}
+      button{background:#ffca28;padding:12px;border:none;border-radius:8px;cursor:pointer;font-weight:bold;}
+      #mensaje{color:#000000;font-size:20px;font-weight:bold;background:#f1f8ff;padding:12px;border-radius:10px;margin-top:15px;}
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>El encanto de Japón: tradiciones y gastronomía que fascinan al mundo</h1>
+      <p>Un recorrido por el fascinante contraste entre la calma de sus rituales ancestrales y la explosión de sabores que conquista los paladares de todo el planeta</p>
+    </header>
+    
+    <section>
+      <h2>Conoce más sobre este hermoso país</h2>
+      <p>Conoce a fondo el país que logró convertir sus raíces en un fenómeno global</p>
+      <button onclick="mostrarMensaje()">Ver mas info</button>
+      <p id="mensaje"></p>
+    </section>
+    
+    <section>
+      <h2>Contacto</h2>
+      <p>Correo: learnabout日本@gmail.com</p>
+      <p>Red social: @NihonVibe(日本)</p>
+    </section>
+
+    <script>
+      function mostrarMensaje(){
+        document.getElementById('mensaje').innerHTML='Hubo un tiempo en que Japón era percibido como un destino lejano, misterioso y casi inalcanzable. Un archipiélago silencioso donde el futuro de los rascacielos de neón convivía con el pasado de los samuráis. Sin embargo, hoy en día, el país del sol naciente se ha convertido en una auténtica obsesión global. Desde el rincón más inesperado de América Latina hasta las grandes capitales europeas, los extranjeros han caído rendidos ante el encanto de una identidad que no se parece a ninguna otra. ¿El secreto de este idilio? Una combinación perfecta entre el respeto absoluto por sus tradiciones y una gastronomía que es, en sí misma, una obra de arte.';
+      }
+    </script>
+    
+  </body>
+</html>
